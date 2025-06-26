@@ -1,0 +1,4 @@
+2025-06-26 16:09:10.814 [ConsumeMessageThread_signal-consumer-group_1] INFO  c.example.mi.mq.SignalReportConsumer - Received warning: {"车架编号":1,"电池类型":"铁锂电池","warnName":"电压差报警","warnLevel":0}
+2025-06-26 16:09:10.815 [ConsumeMessageThread_signal-consumer-group_2] INFO  c.example.mi.mq.SignalReportConsumer - Received warning: {"车架编号":2,"电池类型":"铁锂电池","warnName":"电流差报警","warnLevel":2}
+2025-06-26 16:09:10.819 [ConsumeMessageThread_signal-consumer-group_3] INFO  c.example.mi.mq.SignalReportConsumer - Received warning: {"车架编号":3,"电池类型":"三元电池","warnName":"电压差报警","warnLevel":2}
+2025-06-26 16:09:10.821 [ConsumeMessageThread_signal-consumer-group_4] INFO  c.example.mi.mq.SignalReportConsumer - Received warning: {"车架编号":3,"电池类型":"三元电池","warnName":"电流差报警","warnLevel":2}

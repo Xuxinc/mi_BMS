@@ -23,7 +23,7 @@ Redisson客户端的配置类，Redisson是Redis的一个Java客户端，支持�
 
 ### 3. 数据访问层
 - **RuleMapper.java**  
-规则表的数据访问接口，负责与数据库中的规则表进行交互（如增删改查）。
+规则表的数据访问接口，负责与数据库中的规则表进行交互。
 - **SignalReportMapper.java**  
 预警信号报告的数据访问接口，负责与数据库中的信号报告表进行交互。
 - **VehicleInfoMapper.java**  
@@ -45,9 +45,9 @@ Redisson客户端的配置类，Redisson是Redis的一个Java客户端，支持�
 
 ### 5. 消息队列相关模块
 - **SignalReportConsumer.java**  
-预警信号的消息消费者类，负责从消息队列中消费信号相关消息，进行后续处理。
+预警信号的消息消费者类，负责从消息队列中消费信号相关消息，打印出来并写入日志。
 - **SignalReportScheduler.java**  
-预警信号的定时任务调度类，负责定时拉取、处理信号数据等任务。
+预警信号的定时任务调度类，负责定时拉取、发送信号数据等任务。
 
 ### 6. 业务逻辑层
 - **SignalReportService.java**  
